@@ -76,6 +76,7 @@ body{
   .navbar-nav{display:none}
 }
 
+/*only shows 3 parrallel lines in mobel view*/
 @media(min-width:568px){
   /*.open-slide{display:none}*/
 }

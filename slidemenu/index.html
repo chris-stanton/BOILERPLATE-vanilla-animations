@@ -1,54 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Responsive Side Menu</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <nav class="navbar">
-    <span class="open-slide">
-      <a href="#" onclick="openSlideMenu()">
-        <svg width="30" height="30">
-            <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
-            <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
-            <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
-        </svg>
-      </a>
-    </span>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title> Responsive Side Menu </title>
+          <script type="text/javascript" src="client.js"></script>
+          <link rel="stylesheet" href="style.css">
+    </head>
 
-    <ul class="navbar-nav">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Services</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </nav>
+    <body>
+      <nav class="navbar">
+        <span class="open-slide">
+<!-- button click to slide open -->
+          <a href="#" onclick="openSlideMenu()">
+            <svg width="30" height="30">
+              <!-- three parralell nav lines -->
+              <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+              <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+              <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+            </svg>
+          </a>
+        </span>
+<!-- top nav bar -->
+        <ul class="navbar-nav">
+          <li><a href="#">Home</a></li><!-- Dummy Data -->
+          <li><a href="#">About</a></li><!-- Dummy Data -->
+          <li><a href="#">Services</a></li><!-- Dummy Data -->
+          <li><a href="#">Contact</a></li><!-- Dummy Data -->
+        </ul>
+      </nav>
 
-  <div id="side-menu" class="side-nav">
-    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Contact</a>
-  </div>
+<!-- side menu exspanded -->
+      <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+        <a href="#">Home</a><!-- Dummy Data -->
+        <a href="#">About</a><!-- Dummy Data -->
+        <a href="#">Services</a><!-- Dummy Data -->
+        <a href="#">Contact</a><!-- Dummy Data -->
+      </div>
 
-  <div id="main">
-    <h1>Responsive Side Menu</h1>
-  </div>
+<!-- main content container for html view -->
+      <div id="main">
+        <h1> Responsive Side Menu </h1>
+      </div>
 
-  <script>
-    function openSlideMenu(){
-      document.getElementById('side-menu').style.width = '250px';
-      document.getElementById('main').style.marginLeft = '250px';
-    }
-
-    function closeSlideMenu(){
-      document.getElementById('side-menu').style.width = '0';
-      document.getElementById('main').style.marginLeft = '0';
-    }
-  </script>
-</body>
-</html>
+    </body>
+  </html>
