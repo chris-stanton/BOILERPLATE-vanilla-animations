@@ -1,0 +1,21 @@
+
+body {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.animationCards {
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 50px 0px 50px 0px;
+}
+
+.desktopImages {
+  height: 220px;
+  width: 375px;
+}
+
+.mobileImages {
+  height: 20%;
+  width: 20%;
+}
