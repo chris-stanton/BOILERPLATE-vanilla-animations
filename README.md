@@ -1,6 +1,8 @@
 
 # Vanilla Javascript / CSS Animations
 
+###### *Entire Working code can be viewed on Heroku here:* [vanilla-animations.herokuapp.com](https://vanilla-animations.herokuapp.com)
+
 ---
 
 ### Slide Menu
@@ -9,14 +11,17 @@
 
 - *Desktop View*
 
-  <img src="./images/slidemenu-desktop.png" width="49%">
+  <img src="./master/images/slidemenu-desktop.png" width="49%">
 
 - *Side Menu*
 
-  <img src="./images/slidemenu-sidemenu.png" width="50%">
+  <img src="./master/images/slidemenu-sidemenu.png" width="50%">
 
 - *Mobile View*
 
-  <img src="./images/slidemenu-mobile.png" width="35%">
+  <img src="./master/images/slidemenu-mobile.png" width="35%">
+
+###### *Working code can be viewed on Heroku here:*
+[Slide Menu](https://vanilla-animations.herokuapp.com/slidemenu/index.html)
 
 ---
