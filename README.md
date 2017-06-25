@@ -8,12 +8,14 @@
 
 - Desktop View
 
-<img src="./images/slidemenu-desktop.png" height="50%" width="50%">
+<img src="./images/slidemenu-desktop.png" width="49%">
 
 - Side Menu
-<img src="./images/slidemenu-sidemenu.png" height="50%" width="50%">
+
+<img src="./images/slidemenu-sidemenu.png" width="50%">
 
 - Mobile View
-<img src="./images/slidemenu-mobile.png" height="30%" width="30%">
+
+<img src="./images/slidemenu-mobile.png" width="30%">
 
 ---
