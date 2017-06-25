@@ -1,7 +1,7 @@
 
 # Vanilla Javascript / CSS Animations
 
-###### *Entire Working code can be viewed on Heroku here:* [vanilla-animations.herokuapp.com](https://vanilla-animations.herokuapp.com)
+###### *Entire Working Library can be viewed on Heroku here:* [vanilla-animations.herokuapp.com](https://vanilla-animations.herokuapp.com)
 
 ---
 
@@ -21,7 +21,6 @@
 
   <img src="./master/images/slidemenu-mobile.png" width="35%">
 
-###### *Working code can be viewed on Heroku here:*
-[Slide Menu](https://vanilla-animations.herokuapp.com/slidemenu/index.html)
+###### *Working code can be viewed on Heroku here:* [Slide Menu](https://vanilla-animations.herokuapp.com/slidemenu/index.html)
 
 ---
