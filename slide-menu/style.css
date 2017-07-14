@@ -1,7 +1,9 @@
 body{
   font-family: "Arial", Serif;
-  background-color: #f4f4f4;
   overflow-x: hidden;
+  background-image: url(./mpls.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .navbar{
@@ -69,19 +71,37 @@ body{
   transition: margin-left 0.5s;
   padding: 20px;
   overflow: hidden;
-  width: 100%;
+  color: #f5f5f5;
 }
 
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #fefefe;
+  padding: 10px 0px 10px 0px;
+  background-color: #008cff;
+  font-size: 12px;
+}
+
+
+
+
+
+
+
 @media(max-width: 568px){
+  body {
+    background-size: auto;
+  }
+
   .navbar-nav{
     display:
     none
   }
-}
 
-/*only shows 3 parrallel lines in mobel view*/
-@media(min-width: 568px){
-  /*.open-slide{
-    display: none
-  }*/
 }
