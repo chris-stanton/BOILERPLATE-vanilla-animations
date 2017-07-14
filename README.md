@@ -19,7 +19,7 @@
 
 ### Slide Menu
 
-###### Slide Menu is a mobile friendly nav bar with slide out icon (slides in from left). Browser needs to support HTML5 and CSS3 elements.
+###### Slide Menu is a mobile friendly nav bar with slide out icon (slides in from left). Browser needs to support HTML5 and CSS3 elements. Slide menu is mobile friendly and follows HTML5, CSS3, ES6 and Flex Box standards.
 
 - *Desktop View*
 
@@ -39,7 +39,7 @@
 
 ### Responsive Image Slider
 
-###### Container that uses ES6 transitions to fade images in and out.  There is also CSS code images to slide in and out instead of fading.
+###### Container that uses ES6 transitions to fade images in and out.  There is also CSS code images to slide in and out instead of fading. Image slider is mobile friendly and follows HTML5, CSS3, ES6 and Flex Box standards.
 
 - *Desktop View*
 
@@ -48,5 +48,27 @@
 - *Mobile View*
 
   <img src="./master/images/responsive-image-slider/mobile.png" width="35%">
+
+---
+
+### Mega Nav Menu
+
+###### Nav bar that contains multiple links, text or pictures.  Nav bar is mobile friendly and follows HTML5, CSS3, ES6 and Flex Box standards.
+
+- *Desktop View*
+
+  <img src="./master/images/mega-nav-menu/desktopone.png" width="49%">
+
+- *Desktop Nav Menu*
+
+  <img src="./master/images/mega-nav-menu/desktoptwo.png" width="50%">
+
+- *Mobile View*
+
+  <img src="./master/images/mega-nav-menu/mobileone.png" width="35%">
+
+- *Mobile Nav Menu*
+
+  <img src="./master/images/mega-nav-menu/mobiletwo.png" width="35%">
 
 ---
