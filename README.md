@@ -25,13 +25,17 @@
 
   <img src="./master/images/slide-menu/slidemenu-desktop.png" width="49%">
 
-- *Side Menu*
+- *Desktop Side Menu*
 
   <img src="./master/images/slide-menu/slidemenu-sidemenu.png" width="50%">
 
 - *Mobile View*
 
   <img src="./master/images/slide-menu/slidemenu-mobile.png" width="35%">
+
+- *Mobile Side Menu*
+
+  <img src="./master/images/slide-menu/slidemenu-mobilemenu.png" width="35%">
 
 <!-- ###### *Working code can be viewed on Heroku here:* [Slide Menu](https://vanilla-animations.herokuapp.com/slidemenu/index.html) -->
 
