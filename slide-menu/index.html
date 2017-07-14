@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title> Responsive Side Menu </title>
+          <script type="text/javascript" src="client.js"></script>
+          <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+      <nav class="navbar">
+        <span class="open-slide">
+<!-- button click to slide open -->
+          <a href="#" onclick="openSlideMenu()">
+            <svg width="30" height="30">
+              <!-- three parralell nav lines -->
+              <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+              <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+              <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+            </svg>
+          </a>
+        </span>
+<!-- top nav bar -->
+        <ul class="navbar-nav">
+          <li><a href="#">Home</a></li><!-- Dummy Data -->
+          <li><a href="#">About</a></li><!-- Dummy Data -->
+          <li><a href="#">Services</a></li><!-- Dummy Data -->
+          <li><a href="#">Contact</a></li><!-- Dummy Data -->
+        </ul>
+      </nav>
+
+<!-- side menu exspanded -->
+      <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+        <a href="#">Home</a><!-- Dummy Data -->
+        <a href="#">About</a><!-- Dummy Data -->
+        <a href="#">Services</a><!-- Dummy Data -->
+        <a href="#">Contact</a><!-- Dummy Data -->
+      </div>
+
+<!-- main content container for html view -->
+      <div id="main">
+        <h3> Responsive Side Menu </h3>
+          <h1> Main view content goes here </h1>
+      </div>
+
+      <footer> Copyright (C) Christopher J. Stanton. All Rights Reserved </footer>
+
+    </body>
+  </html>

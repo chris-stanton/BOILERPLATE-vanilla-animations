@@ -1,0 +1,59 @@
+
+body {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+#mainHeading {
+  font-size: 40px;
+  padding: 0px 0px 20px 0px;
+  border-bottom: 3px solid grey;
+}
+
+
+
+.container {
+  display: flex;
+}
+
+.subHeadings {
+  font-size: 25px;
+}
+
+.animationCards {
+  border: 1px solid black;
+  border-radius: 15px;
+  margin: 40px 20px 30px 60px;
+  padding: 15px 20px 40px 20px;
+  box-shadow: 7px 7px 7px grey;
+}
+
+.animationCards:hover {
+  background-color: #e2e2e2;
+  box-shadow: 10px 10px 10px grey;
+}
+
+.desktopImages {
+  height: 220px;
+  width: 475px;
+}
+
+
+
+
+/*mobile view*/
+@media(max-width:568px) {
+  .container {
+    display: inline-block;
+  }
+
+  .animationCards {
+    width: 300px;
+    margin: 20px 0px 20px 0px;
+  }
+
+  .desktopImages {
+    height: 180px;
+    width: 280px;
+  }
+}
