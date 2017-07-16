@@ -2,6 +2,8 @@
 body {
   background-color: #ffffff;
   text-align: center;
+  margin: 0px;
+  padding: 0px;
 }
 
 #mainHeading {
@@ -14,6 +16,7 @@ body {
 
 .container {
   display: flex;
+  margin-bottom: 40px;
 }
 
 .subHeadings {
@@ -36,6 +39,17 @@ body {
 .desktopImages {
   height: 220px;
   width: 475px;
+}
+
+footer {
+  background-color: #626262;
+  color: #ffffff;
+  opacity: 0.5;
+  margin-top: 40px;
+  padding: 10px 0px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 
