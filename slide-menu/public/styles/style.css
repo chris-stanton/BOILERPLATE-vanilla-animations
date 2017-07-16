@@ -1,7 +1,7 @@
 body{
   font-family: "Arial", Serif;
   overflow-x: hidden;
-  background-image: url(./mpls.png);
+  background-image: url(../assets/images/mpls.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
