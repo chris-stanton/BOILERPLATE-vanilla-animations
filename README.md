@@ -9,11 +9,11 @@
 
 - *Desktop View*
 
-  <img src="./master/images/main/desktop.png" width="49%">
+  <img src="./master/assets/images/main/desktop.png" width="49%">
 
 - *Mobile View*
 
-  <img src="./master/images/main/mobile.png" width="35%">
+  <img src="./master/assets/images/main/mobile.png" width="35%">
 
 ---
 
@@ -23,19 +23,19 @@
 
 - *Desktop View*
 
-  <img src="./master/images/slide-menu/slidemenu-desktop.png" width="49%">
+  <img src="./master/assets/images/slide-menu/slidemenu-desktop.png" width="49%">
 
 - *Desktop Side Menu*
 
-  <img src="./master/images/slide-menu/slidemenu-sidemenu.png" width="50%">
+  <img src="./master/assets/images/slide-menu/slidemenu-sidemenu.png" width="50%">
 
 - *Mobile View*
 
-  <img src="./master/images/slide-menu/slidemenu-mobile.png" width="35%">
+  <img src="./master/assets/images/slide-menu/slidemenu-mobile.png" width="35%">
 
 - *Mobile Side Menu*
 
-  <img src="./master/images/slide-menu/slidemenu-mobilemenu.png" width="35%">
+  <img src="./master/assets/images/slide-menu/slidemenu-mobilemenu.png" width="35%">
 
 <!-- ###### *Working code can be viewed on Heroku here:* [Slide Menu](https://vanilla-animations.herokuapp.com/slidemenu/index.html) -->
 
@@ -47,11 +47,11 @@
 
 - *Desktop View*
 
-  <img src="./master/images/responsive-image-slider/desktop.png" width="49%">
+  <img src="./master/assets/images/responsive-image-slider/desktop.png" width="49%">
 
 - *Mobile View*
 
-  <img src="./master/images/responsive-image-slider/mobile.png" width="35%">
+  <img src="./master/assets/images/responsive-image-slider/mobile.png" width="35%">
 
 ---
 
@@ -61,18 +61,18 @@
 
 - *Desktop View*
 
-  <img src="./master/images/mega-nav-menu/desktopone.png" width="49%">
+  <img src="./master/assets/images/mega-nav-menu/desktopone.png" width="49%">
 
 - *Desktop Nav Menu*
 
-  <img src="./master/images/mega-nav-menu/desktoptwo.png" width="50%">
+  <img src="./master/assets/images/mega-nav-menu/desktoptwo.png" width="50%">
 
 - *Mobile View*
 
-  <img src="./master/images/mega-nav-menu/mobileone.png" width="35%">
+  <img src="./master/assets/images/mega-nav-menu/mobileone.png" width="35%">
 
 - *Mobile Nav Menu*
 
-  <img src="./master/images/mega-nav-menu/mobiletwo.png" width="35%">
+  <img src="./master/assets/images/mega-nav-menu/mobiletwo.png" width="35%">
 
 ---
