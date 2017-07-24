@@ -1,0 +1,27 @@
+body {
+  -webkit-animation: pulse 10s infinite;
+  animation: pulse 10s infinite;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 200px;
+  color: #ffffff;
+  font-size: 50px;
+}
+
+@-webkit-keyframes pulse {
+    0% {background:#f44336}
+    25% {background:#cc215e}
+    50% {background:#9c2780}
+    75% {background:#673ab7}
+    100% {background:#f44336}
+}
+
+@keyframes pulse {
+    0% {background:#f44336}
+    25% {background:#cc215e}
+    50% {background:#9c2780}
+    75% {background:#673ab7}
+    100% {background:#f44336}
+}
