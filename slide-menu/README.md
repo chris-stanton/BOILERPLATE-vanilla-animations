@@ -1,19 +1,23 @@
 
-## Technologies Used
-  1. HTML / CSS / Javascript
-  2. jQuery ``v3.1.1``
+# Slide Menu
 
+---
 
-## How To Use Template App
+## Description:
+###### Slide menu is a nav menu that slides in from the left side of the screen.  The main content slides left when menu is active.  App is mobile responsive.
+
+---
+
+## Technologies Used:
+  1. HTML5
+  2. CSS3
+  3. Javascript
+
+---
+
+## How To Use Template App:
   1. Fork or download zip file
-  2. Template has all files sourced in and working
-  3. Template includes jquery.js file version ``v3.1.1``
-  4. Include Javascript in client.js in the
-      `` $(document).ready(function() {
-
-            Insert Javascript Here
-
-    }); ``
+  2. Open index.html in browser
 
 ---
 

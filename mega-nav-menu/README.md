@@ -1,14 +1,21 @@
 
-## Technologies Used
+# Mega Nav Menu
+
+---
+
+## Description:
+###### Nav bar that can contain multiple links, images or any other HTML markup/elements.  Nav bar is mobile responsive.
+
+---
+
+## Technologies Used:
   1. HTML5
   2. CSS3
   3. Javascript
-  4. ES6
-  5. Flex Box
 
+---
 
-
-## How To Use Template App
+## How To Use Template App:
   1. Fork or download zip file
   2. Open index.html in browser
 
