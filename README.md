@@ -5,6 +5,7 @@
 
 ---
 ## Main Landing View
+
 ###### Land page displays cards for all code examples that link to the specific working project.  All project us Flex Box and follow ES6, HTML5 and CSS3 standards.  There are no plugins or other 3rd party libraries in any of the projects. ONLY vanilla Javascript!!!
 
 - *Desktop View*
@@ -76,3 +77,11 @@
   <img src="./master/assets/images/mega-nav-menu/mobiletwo.png" width="35%">
 
 ---
+
+### Background Pulse Animation
+
+###### Background full screen color transformation. Background colors transform to new colors every 10 seconds.  Colors are preset in ``styles.css`` file where they can be changed to any colors. Project uses HTML5 and CSS3.
+
+- *Desktop View*
+
+  <img src="./master/assets/images/background-pulse-animation/desktop.png" width="49%">
