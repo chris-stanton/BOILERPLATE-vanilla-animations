@@ -7,6 +7,22 @@ body {
   padding: 0px;
 }
 
+@-webkit-keyframes pulse {
+    0% {background:#f44336}
+    25% {background:#cc215e}
+    50% {background:#9c2780}
+    75% {background:#673ab7}
+    100% {background:#f44336}
+}
+
+@keyframes pulse {
+    0% {background:#f44336}
+    25% {background:#cc215e}
+    50% {background:#9c2780}
+    75% {background:#673ab7}
+    100% {background:#f44336}
+}
+
 #mainHeading {
   font-size: 40px;
   padding: 0px 0px 20px 0px;
@@ -54,21 +70,7 @@ footer {
   width: 100%;
 }
 
-@-webkit-keyframes pulse {
-    0% {background:#f44336}
-    25% {background:#cc215e}
-    50% {background:#9c2780}
-    75% {background:#673ab7}
-    100% {background:#f44336}
-}
 
-@keyframes pulse {
-    0% {background:#f44336}
-    25% {background:#cc215e}
-    50% {background:#9c2780}
-    75% {background:#673ab7}
-    100% {background:#f44336}
-}
 
 
 
