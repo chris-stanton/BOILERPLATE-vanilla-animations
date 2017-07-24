@@ -1,6 +1,7 @@
 
 body {
-  background-color: #ffffff;
+  -webkit-animation: pulse 10s infinite;
+  animation: pulse 10s infinite;
   text-align: center;
   margin: 0px;
   padding: 0px;
@@ -12,8 +13,6 @@ body {
   border-bottom: 3px solid grey;
 }
 
-
-
 .container {
   display: flex;
   margin-bottom: 40px;
@@ -24,16 +23,19 @@ body {
 }
 
 .animationCards {
+  background-color: #4b4b4b;
   border: 1px solid black;
   border-radius: 15px;
   margin: 40px 20px 30px 60px;
   padding: 15px 20px 40px 20px;
-  box-shadow: 7px 7px 7px grey;
+  box-shadow: 7px 7px 7px #ffffff;
+  color: #ffffff;
 }
 
 .animationCards:hover {
   background-color: #e2e2e2;
   box-shadow: 10px 10px 10px grey;
+  color: #000000;
 }
 
 .desktopImages {
@@ -50,6 +52,22 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+
+@-webkit-keyframes pulse {
+    0% {background:#f44336}
+    25% {background:#cc215e}
+    50% {background:#9c2780}
+    75% {background:#673ab7}
+    100% {background:#f44336}
+}
+
+@keyframes pulse {
+    0% {background:#f44336}
+    25% {background:#cc215e}
+    50% {background:#9c2780}
+    75% {background:#673ab7}
+    100% {background:#f44336}
 }
 
 
