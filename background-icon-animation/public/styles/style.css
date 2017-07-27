@@ -1,0 +1,238 @@
+
+body {
+  background-color: #ffffff;
+  z-index: 1;
+  overflow-y:hidden;
+  overflow-x:hidden;
+}
+
+h1 {
+  z-index: 100;
+  color: #000000;
+  text-align: center;
+  margin: 200px auto;
+}
+
+.bubbles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    z-index: 0;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.bubbles li {
+    position: absolute;
+    list-style: none;
+    display: block;
+    bottom: -100px;
+    -webkit-animation: square 20s infinite;
+    animation: square 20s infinite;
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+}
+
+.bubbles li:nth-child(1) {
+    width: 80px;
+    height: 80px;
+    left: 20%;
+    background-image: url("../assets/images/icons/angular.ico");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.bubbles li:nth-child(2) {
+    width: 80px;
+    height: 80px;
+    left: 40%;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-duration: 17s;
+    animation-duration: 17s;
+    background-image: url("../assets/images/icons/express.ico");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.bubbles li:nth-child(3) {
+    width: 90px;
+    height: 90px;
+    left: 60%;
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+    -webkit-animation-duration: 13s;
+    animation-duration: 13s;
+    background-image: url("../assets/images/icons/firebase.ico");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.bubbles li:nth-child(4) {
+    width: 100px;
+    height: 100px;
+    left: 5%;
+    background-image: url("../assets/images/icons/git.ico");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    -webkit-animation-duration: 20s;
+    animation-duration: 20s;
+}
+
+.bubbles li:nth-child(5) {
+    width: 40px;
+    height: 40px;
+    left: 20%;
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+    -webkit-animation-duration: 12s;
+    animation-duration: 12s;
+    background-image: url("../assets/images/icons/gitHub.ico");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.bubbles li:nth-child(6) {
+    width: 40px;
+    height: 40px;
+    left: 90%;
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+    -webkit-animation-duration: 14s;
+    animation-duration: 14s;
+    background-image: url("../assets/images/icons/heroku.ico");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.bubbles li:nth-child(7) {
+    width: 100px;
+    height: 100px;
+    left: 20%;
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s;
+    background-image: url("../assets/images/icons/html.ico");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.bubbles li:nth-child(8) {
+    width: 70px;
+    height: 70px;
+    left: 70%;
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+    -webkit-animation-duration: 11s;
+    animation-duration: 11s;
+    background-image: url("../assets/images/icons/javascript.ico");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.bubbles li:nth-child(9) {
+    width: 100px;
+    height: 110px;
+    left: 30%;
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+    -webkit-animation-duration: 12s;
+    animation-duration: 12s;
+    background-image: url("../assets/images/icons/jQuery.ico");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.bubbles li:nth-child(10) {
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    -webkit-animation-delay: 8s;
+    animation-delay: 8s;
+    -webkit-animation-duration: 9s;
+    animation-duration: 9s;
+    background-image: url("../assets/images/icons/mean.ico");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.bubbles li:nth-child(11) {
+    width: 100px;
+    height: 100px;
+    left: 10%;
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+    -webkit-animation-duration: 11s;
+    animation-duration: 11s;
+    background-image: url("../assets/images/icons/mongodb.ico");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.bubbles li:nth-child(12) {
+    width: 100px;
+    height: 100px;
+    left: 70%;
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    -webkit-animation-duration: 21s;
+    animation-duration: 21s;
+    background-image: url("../assets/images/icons/node.ico");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.bubbles li:nth-child(13) {
+    width: 100px;
+    height: 100px;
+    left: 80%;
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    -webkit-animation-duration: 19s;
+    animation-duration: 19s;
+    background-image: url("../assets/images/icons/npm.ico");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.bubbles li:nth-child(14) {
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+    -webkit-animation-duration: 16s;
+    animation-duration: 16s;
+    background-image: url("../assets/images/icons/sql.ico");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+
+@-webkit-keyframes square {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    100% {
+        -webkit-transform: translateY(-1080px) rotate(630deg);
+        transform: translateY(-1080px) rotate(630deg);
+    }
+}
+
+@keyframes square {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    100% {
+        -webkit-transform: translateY(-1080px) rotate(630deg);
+        transform: translateY(-1080px) rotate(630deg);
+    }
+}
