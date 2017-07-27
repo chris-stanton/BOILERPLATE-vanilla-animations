@@ -213,6 +213,18 @@ h1 {
     background-size: 100%;
 }
 
+footer {
+  background-color: #626262;
+  color: #ffffff;
+  opacity: 0.5;
+  margin-top: 40px;
+  padding: 10px 0px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
 
 
 @-webkit-keyframes square {

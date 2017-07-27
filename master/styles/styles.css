@@ -23,7 +23,7 @@ body {
     100% {background:#f44336}
 }
 
-#mainHeading {
+h1 {
   font-size: 40px;
   padding: 0px 0px 20px 0px;
   border-bottom: 3px solid grey;
@@ -33,6 +33,10 @@ section {
   margin: 0px;
 }
 
+h3 {
+  font-size: 25px;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -40,9 +44,7 @@ section {
   text-align: center;
 }
 
-h3 {
-  font-size: 25px;
-}
+
 
 .animationCards {
   background-color: #4b4b4b;
