@@ -1,6 +1,9 @@
 
 # Vanilla Javascript / CSS Animations
 
+### Description:
+##### All projects are both desktop, mobile friendly and include ONLY HTML, CSS and Javascript.
+
 ###### *Entire Working Library can be viewed on Heroku here:* [vanilla-animations.herokuapp.com](https://vanilla-animations.herokuapp.com)
 
 ---
@@ -85,3 +88,13 @@
 - *Desktop View*
 
   <img src="./master/assets/images/background-pulse-animation/desktop.png" width="49%">
+
+  ---
+
+### Background Pulse Animation
+
+###### Full screen Background icon animation. Background icons float from bottom of screen to the top at different speeds. Project uses HTML5 and CSS3.
+
+- *Desktop View*
+
+  <img src="./master/assets/images/background-icon-animation/desktop.png" width="49%">
