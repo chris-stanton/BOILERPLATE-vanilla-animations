@@ -25,3 +25,16 @@ h1 {
   75% {background:#673ab7}
   100% {background:#f44336}
 }
+
+footer {
+  background-color: #626262;
+  color: #ffffff;
+  opacity: 0.5;
+  margin-top: 40px;
+  padding: 10px 0px;
+  position: fixed;
+  bottom: 0;
+  right: 0px;
+  left: 0px;
+  text-align: center;
+}
