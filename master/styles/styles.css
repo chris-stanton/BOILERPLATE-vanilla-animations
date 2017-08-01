@@ -23,18 +23,25 @@ body {
     100% {background:#f44336}
 }
 
-h1 {
-  font-size: 40px;
-  padding: 0px 0px 20px 0px;
-  border-bottom: 3px solid grey;
+.header-container {
+  display: flex;
+  flex-direction: column;
 }
 
-section {
-  margin: 0px;
+.header-container h1 {
+  font-size: 45px;
 }
 
-h3 {
-  font-size: 25px;
+.link-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.link-container a {
+  margin: 10px;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .container {
@@ -44,7 +51,9 @@ h3 {
   text-align: center;
 }
 
-
+.container h3 {
+  font-size: 25px;
+}
 
 .animationCards {
   background-color: #4b4b4b;
@@ -86,6 +95,17 @@ footer {
 
 /*mobile view*/
 @media(max-width:568px) {
+  .link-container {
+    flex-direction: column;
+    margin: 80px 20px 80px 20px;
+  }
+
+  .link-container a {
+    margin: 2px;
+    padding: 10px;
+    background-color: #444a4b;
+  }
+
   .container {
     display: inline-block;
   }
