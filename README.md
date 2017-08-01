@@ -91,10 +91,28 @@
 
   ---
 
-### Background Pulse Animation
+### Background Icon Animation
 
 ###### Full screen Background icon animation. Background icons float from bottom of screen to the top at different speeds. Project uses HTML5 and CSS3.
 
 - *Desktop View*
 
   <img src="./master/assets/images/background-icon-animation/desktop.png" width="49%">
+
+  ---
+
+### Background Blur Sroll
+
+###### Responsive background transition between two images that creates a "blur" like effect. The transition happens on scroll.  Image transitions from normal to a blurred effect. Project uses HTML5 and CSS3.
+
+- *Desktop Views*
+
+  <img src="./master/assets/images/background-blur-scroll/desktop-one.png" width="49%">
+
+  <img src="./master/assets/images/background-blur-scroll/desktop-two.png" width="49%">
+
+- *Mobile Views*
+
+  <img src="./master/assets/images/background-blur-scroll/mobile-one.png" width="49%">
+
+  <img src="./master/assets/images/background-blur-scroll/mobile-two.png" width="49%">

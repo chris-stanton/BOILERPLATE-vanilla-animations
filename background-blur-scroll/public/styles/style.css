@@ -28,6 +28,7 @@ h1 {
   font-size: 8em;
   color: #ffffff;
   font-family: fantasy;
+  text-shadow: 4px 4px 4px #000000;
 }
 
 p {
@@ -35,4 +36,5 @@ p {
   text-align: center;
   font-size: 2em;
   color: #ffffff;
+  text-shadow: 4px 4px 4px #000000;
 }
