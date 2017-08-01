@@ -47,7 +47,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  margin: 10px auto;
+  margin: 15px auto;
   text-align: center;
 }
 
@@ -75,6 +75,12 @@ body {
   height: 220px;
   width: 475px;
   border-radius: 10px;
+}
+
+.to-top-container {
+  color: #000000;
+  text-decoration: none;
+  margin-bottom: 20px;
 }
 
 footer {
@@ -118,6 +124,10 @@ footer {
   .desktopImages {
     height: 180px;
     width: 280px;
+  }
+
+  .to-top-container {
+    margin: 20px;
   }
 
   footer {
