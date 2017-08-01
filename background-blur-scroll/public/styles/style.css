@@ -22,3 +22,17 @@
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
 }
+
+h1 {
+  text-align: center;
+  font-size: 8em;
+  color: #ffffff;
+  font-family: fantasy;
+}
+
+p {
+  margin: 20px 50px 200px 50px;
+  text-align: center;
+  font-size: 2em;
+  color: #ffffff;
+}
