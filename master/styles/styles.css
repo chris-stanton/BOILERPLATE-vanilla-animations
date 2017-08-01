@@ -119,4 +119,10 @@ footer {
     height: 180px;
     width: 280px;
   }
+
+  footer {
+    font-size: 13px;
+    padding: 6px 0px;
+  }
+
 }
