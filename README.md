@@ -101,7 +101,7 @@
 
   ---
 
-### Background Blur Sroll
+### Background Blur Scroll
 
 ###### Responsive background transition between two images that creates a "blur" like effect. The transition happens on scroll.  Image transitions from normal to a blurred effect. Project uses HTML5 and CSS3.
 
