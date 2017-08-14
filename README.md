@@ -81,6 +81,18 @@
 
 ---
 
+### Modern Nav Menu
+
+###### Modern nav menu is built from HTML and CSS only.  Boilerplate includes hover over links to expand and each "option" is color coded.  This boilerplate is only desktop responsive.
+
+- *Desktop Views*
+
+  <img src="./master/assets/images/modern-nav-menu/desktop-one.png" width="49%">
+
+  <img src="./master/assets/images/modern-nav-menu/desktop-two.png" width="50%">
+
+---
+
 ### Background Pulse Animation
 
 ###### Background full screen color transformation. Background colors transform to new colors every 10 seconds.  Colors are preset in ``styles.css`` file where they can be changed to any colors. Project uses HTML5 and CSS3.
@@ -113,6 +125,6 @@
 
 - *Mobile Views*
 
-  <img src="./master/assets/images/background-blur-scroll/mobile-one.png" width="49%">
+  <img src="./master/assets/images/background-blur-scroll/mobile-one.png" width="35%">
 
-  <img src="./master/assets/images/background-blur-scroll/mobile-two.png" width="49%">
+  <img src="./master/assets/images/background-blur-scroll/mobile-two.png" width="35%">
