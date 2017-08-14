@@ -7,10 +7,11 @@
 }
 
 body {
-  background-image: url(../assets/images/city.png);
+  background-image: url('../assets/images/city.png');
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 0;
+  background-position: center;
+  height: 100vh;
   font-family: 'Roboto', sans-serif;
 }
 
